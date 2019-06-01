@@ -1,0 +1,112 @@
+﻿@{
+    ViewBag.Title = "load";
+}
+
+<style>
+
+    html, body {
+        overflow: hidden;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        margin: 0;
+        padding: 0;
+        background-color: ivory;
+    }
+
+    #canvas {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+</style>
+
+<div>
+    <canvas id="myCanvas" width="0" height="0"></canvas>
+    <img id="map_pic" src="~/map-share.png" alt="world map" hidden="hidden">
+
+    <input type="hidden" id="sign" value="0">
+    <input type="hidden" id="long" value="0">
+    <input type="hidden" id="lati" value="0">
+</div>
+
+<script>
+
+    window.onload = function () {
+
+
+
+        var c = document.getElementById("myCanvas");
+        c.width = window.innerWidth;
+        c.height = window.innerHeight;
+        var ctx = c.getContext("2d");
+        ctx.translate(0, 0);
+        var img = document.getElementById("map_pic");
+        ctx.drawImage(img, 0, 0, img.width, img.height, 0, 0, c.width, c.height);
+
+
+        var intush = setInterval(function () {
+
+
+        $.post("@Url.Action("GetElement")").done(function (xml) {
+
+            if (xml != "") {
+                var xmlDoc = $.parseXML(xml),
+                    $xml = $(xmlDoc);
+                Latitude = $xml.find("Lat").text();
+                Longitude = $xml.find("Lon").text();
+
+                var c = document.getElementById("myCanvas");
+                var ctx = c.getContext("2d");
+                ctx.beginPath();
+                ctx.lineWidth = 1;
+
+                var NormalLat = ((parseFloat(Latitude) + 90.0) / (90.0 + 90.0)) * (c.scrollHeight);
+                var NoramlLon = ((parseFloat(Longitude) + 180.0) / (180.0 + 180.0)) * (c.scrollWidth);
+
+                if ($("#sign").val() == 0) {
+
+                    ctx.arc(NoramlLon, NormalLat, 6, 0, 2 * Math.PI);
+                    ctx.fillStyle = 'red';
+                    ctx.fill();
+                    ctx.stroke();
+                    $("#sign").val("1");
+                } else {
+
+                    var NormalLatLast = ((parseFloat($("#lati").val()) + 90.0) / (90.0 + 90.0)) * (c.scrollHeight);
+                    var NoramlLonLast = ((parseFloat($("#long").val()) + 180.0) / (180.0 + 180.0)) * (c.scrollWidth);
+
+                    ctx.lineWidth = "5";
+                    ctx.strokeStyle = "red";
+                    ctx.beginPath();
+                    ctx.moveTo((Math.round(NoramlLonLast * 5) / 5), (Math.round(NormalLatLast * 5) / 5));
+                    ctx.lineTo((Math.round(NoramlLon * 5) / 5), (Math.round(NormalLat * 5) / 5));
+                    ctx.stroke();
+                }
+                $("#lati").val((Latitude));
+                $("#long").val((Longitude));
+
+            } else {
+                alert("Finished reading the spots from the xml-file, have a great next flight! ");
+                clearInterval(intush);
+            }
+
+        });
+
+
+    }, @Session["time"] * 1000);
+        
+    }
+
+
+
+
+</script>
+
+
+
+

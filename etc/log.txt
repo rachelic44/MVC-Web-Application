@@ -1,0 +1,218 @@
+commit d6fe4b2b6302c827b89031cd8cb6998e4261fb88
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Sun Apr 28 19:46:50 2019 +0300
+
+    Final push. All set
+
+commit 4531a2247457c2bd6d4ff6b079693a89221a98f1
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Sun Apr 28 19:46:12 2019 +0300
+
+    Final push. All set
+
+commit 8068374fc3f28ae43454147d7d6ebcb8190e1e18
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Sun Apr 28 19:35:11 2019 +0300
+
+    Final push. All set
+
+commit cfa9e444b7d1a845474ad38a5ffcd83200ba1061
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Sun Apr 28 17:22:02 2019 +0300
+
+    .
+
+commit a8f8e583ba430fd17dce76fa30e59d0a374e9f6b
+Author: yael91 <shanyyael.dagan@live.biu.ac.il>
+Date:   Sun Apr 28 17:21:06 2019 +0300
+
+    joy
+
+commit 8704f66ff4e35c5c67f743e94918788099dbc5a1
+Author: yael91 <shanyyael.dagan@live.biu.ac.il>
+Date:   Sun Apr 28 17:20:23 2019 +0300
+
+    joy
+
+commit 154bbef63db9f30347d7bbb07e49ae931a7c468d
+Merge: fef2bcd 794566c
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Sun Apr 28 16:44:52 2019 +0300
+
+    g
+
+commit fef2bcd432e1d93690fed4755510bf56c538d380
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Sun Apr 28 16:42:58 2019 +0300
+
+    g
+
+commit 794566c091e93eb48ae60dc4e2f9dfdc5a2adc88
+Author: yael91 <shanyyael.dagan@live.biu.ac.il>
+Date:   Sun Apr 28 16:42:36 2019 +0300
+
+    joyystick
+
+commit 5f0cd1105d222d12a245c0c3e432895dd1bd8ce4
+Author: yael91 <shanyyael.dagan@live.biu.ac.il>
+Date:   Sun Apr 28 16:41:41 2019 +0300
+
+    joystick
+
+commit 80b7fa3d3d75d65bb614f6d1931d17367c363c71
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Sun Apr 28 14:05:41 2019 +0300
+
+    sockects closing
+
+commit c32c605e23d97b3d12c80365364240413edde702
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Sun Apr 28 13:56:54 2019 +0300
+
+    mouse pressed ok
+
+commit ab04a643d5c40f80b2e25cfc829b8755219e3a27
+Author: yael91 <shanyyael.dagan@live.biu.ac.il>
+Date:   Sun Apr 28 13:55:22 2019 +0300
+
+    view
+
+commit a92b496d7949b338e425f333dab0e42c069d9791
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Sun Apr 28 04:22:57 2019 +0300
+
+    controlling the simulator by bith the manual and the automat pilots
+
+commit da53321f6ac353b8c20f4764cc9f125a67bdb56b
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Sun Apr 28 01:38:51 2019 +0300
+
+    AutoPilot ViewModel is now sunchronized by a new task to send messages currentky every 2 seconds
+
+commit d2a01fe7c2240ece2af393c5a872176a3825d65b
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 24 23:36:59 2019 +0300
+
+    vf
+
+commit 31bf143b317314b164492763dd6bce11c4d438f2
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 24 23:32:11 2019 +0300
+
+    f
+
+commit 535c32322884de5cd27554e8048ec343ccfe9658
+Merge: 41138e2 4e0a139
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 24 23:16:09 2019 +0300
+
+    d
+
+commit 41138e222366a9deb30cfcf0c63c90b36ead4293
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 24 23:13:57 2019 +0300
+
+    push changes
+
+commit 4e0a139df7a01e3ccf90b8905539b3a6dd0ccf07
+Author: yael91 <shanyyael.dagan@live.biu.ac.il>
+Date:   Wed Apr 24 23:10:53 2019 +0300
+
+    throttle
+
+commit cc6527fecb1d0eee503624fd6b13879c2ac379dc
+Author: yael91 <shanyyael.dagan@live.biu.ac.il>
+Date:   Wed Apr 24 23:09:12 2019 +0300
+
+    דגד
+
+commit 6e539b43e2bf240a00cd20a1185bfaa12b12e89b
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 24 22:45:51 2019 +0300
+
+    more
+
+commit 30da2d847f9be914ba79336afa460b92e9b5d222
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 24 20:21:24 2019 +0300
+
+    tracking the flight simulator been taken care of
+
+commit cd44533786561f5194831d054f618ee06c50462a
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 24 15:16:38 2019 +0300
+
+    connection to simulator, bug fixes
+
+commit 3ee82537193ca2f4d1e33ed255f0cdc98eb4338d
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 24 11:33:49 2019 +0300
+
+    flight board is binded to the simulator, in a way it shows the teack of the planes moving
+
+commit 3cb0e9b62345f01606b85f2c4ba44ad2373815f5
+Author: yael91 <shanyyael.dagan@live.biu.ac.il>
+Date:   Mon Apr 22 17:08:01 2019 +0300
+
+    .
+
+commit ecbd38557dc69f21a9c31b8aa02758e7c8e8be9d
+Author: yael91 <shanyyael.dagan@live.biu.ac.il>
+Date:   Mon Apr 22 17:06:53 2019 +0300
+
+    settings databinig between values
+
+commit c29a5d05933d7149b72d48d0b5467b9a82a56edc
+Merge: 5e2cac0 d87637a
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Mon Apr 22 16:35:26 2019 +0300
+
+    Merge branch 'master' of https://github.com/rachelic44/FlightSimulator
+
+commit 5e2cac0dc5ac6b306bee63ce9c3b76e92f3bbb7f
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Mon Apr 22 16:33:30 2019 +0300
+
+    FlightModel
+
+commit f93fba3059c17ec94de12ea81bb33d4a9ecefbf9
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Mon Apr 22 16:31:35 2019 +0300
+
+    FlightViewModel in NotifyPropertyChange
+
+commit d87637a8283a5bb94fc3c2eadfb7da49af8a0c80
+Author: yael91 <shanyyael.dagan@live.biu.ac.il>
+Date:   Mon Apr 22 16:26:31 2019 +0300
+
+    AutoPilotViewModel clear
+
+commit b7db69997ac50ab5e10bc8da49633260e92c4289
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Mon Apr 22 14:45:07 2019 +0300
+
+    pull
+
+commit eedcf2637f7b19bd7c5f7833ee8ce4891d090317
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Mon Apr 22 11:23:00 2019 +0300
+
+    comition
+
+commit 1a0e07c4941e28c1fb7c273db1d2f72a2ecfad60
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 17 14:35:10 2019 +0300
+
+    chenge1
+
+commit f08e5efb13850c62ee8c1e8c7f8814593dcb0217
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 17 12:57:20 2019 +0300
+
+    Add project files.
+
+commit 8ba8d021d98eda2b7cf2008273d31b5ecb825847
+Author: racheli copperman <rachel.copperman@live.biu.ac.il>
+Date:   Wed Apr 17 12:57:09 2019 +0300
+
+    Add .gitignore and .gitattributes.
